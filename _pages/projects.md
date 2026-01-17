@@ -1,65 +1,42 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: []
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+<div style="font-size:0.97em; line-height:1.6; max-width:700px; margin: 0 auto 24px auto;">
+Aerosol particles profoundly affect climate, air quality, and weather, yet their complex behavior poses ongoing challenges in climate science. My distinctive research journey encompasses particle-resolved box models, regional and global atmospheric models, as well as cloud chamber experiments and machine learning applications. This broad expertise enables me to derive critical insights into its role in air quality, optical properties, aerosol-cloud interaction and climate systems. By integrating single particle level understanding with large-scale modeling, my work fosters innovative approaches to address environmental challenges and support the development of effective climate policies.
+</div>
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 40px; max-width: 600px; margin: 0 auto; font-size: 0.95em;">
+
+  <div style="text-align: center;">
+    <img src="/assets/img/box_scale.pdf" style="height:160px; border-radius: 12px; box-shadow: 0 2px 8px #2222;" alt="Box Scale">
+    <div style="margin-top:10px; font-weight: 600; font-size: 1.08em;">Particle-Resolved Box Model</div>
+    <div style="font-size: 0.93em; margin-top: 4px;">
+      Developed expertise in simulating the physicochemical evolution of individual aerosol particles at the microscale, revealing fundamental processes that govern particle growth and activation.
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+  <div style="text-align: center;">
+    <img src="/assets/img/regional_scale.pdf" style="height:160px; border-radius: 12px; box-shadow: 0 2px 8px #2222;" alt="Regional Scale">
+    <div style="margin-top:10px; font-weight: 600; font-size: 1.08em;">Regional-Scale Modeling</div>
+    <div style="font-size: 0.93em; margin-top: 4px;">
+      Advanced to simulating aerosol-cloud interactions and air quality at the city and regional level, quantifying the drivers behind pollution events and cloud formation.
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+
+  <div style="text-align: center;">
+    <img src="/assets/img/global_scale.pdf" style="height:160px; border-radius: 12px; box-shadow: 0 2px 8px #2222;" alt="Global Scale">
+    <div style="margin-top:10px; font-weight: 600; font-size: 1.08em;">Global Modeling & Machine Learning</div>
+    <div style="font-size: 0.93em; margin-top: 4px;">
+      Leveraged machine learning and global atmospheric models to predict CCN concentrations and aerosol impacts on clouds and climate.
+    </div>
   </div>
-  {% endif %}
-{% endif %}
 </div>
