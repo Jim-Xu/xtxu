@@ -9,14 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "Publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
+  },{id: "dropdown-papers",
+              title: "Papers",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/papers/";
+              },
+            },{id: "dropdown-conference-presentations",
+              title: "Conference Presentations",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/presentations/";
+              },
+            },{id: "nav-projects",
           title: "Projects",
           description: "",
           section: "Navigation",
