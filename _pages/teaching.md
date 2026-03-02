@@ -21,7 +21,7 @@ Instructor: Nicole Riemer
 
 - Graded homework and exams; provided feedback to help students improve problem-solving skills.
 - Held office hours twice per week.
-- Led problem-solving sessions (习题课) to walk through key derivations and common thermodynamics applications.
+- Led problem-solving sessions to walk through key derivations and common thermodynamics applications.
 - Developed small code scripts for homework to support calculations/visualization and improve workflow and consistency.
 
 ## Mentoring
