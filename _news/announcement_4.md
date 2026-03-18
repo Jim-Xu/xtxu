@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Modeling the high-mercury wet deposition in the southeastern US with WRF-GC-Hg v1.0" is online in Geoscientific Model Development.
+Our paper ["Modeling the high-mercury wet deposition in the southeastern US with WRF-GC-Hg v1.0"](https://gmd.copernicus.org/articles/15/3845/2022/) is online in Geoscientific Model Development.

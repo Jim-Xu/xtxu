@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Substantial Changes in Nitrogen Dioxide and Ozone after Excluding Meteorological Impacts during the COVID-19 Outbreak in Mainland China" is out in Environmental Science & Technology Letters.
+Our paper ["Substantial Changes in Nitrogen Dioxide and Ozone after Excluding Meteorological Impacts during the COVID-19 Outbreak in Mainland China"](https://pubs.acs.org/doi/10.1021/acs.estlett.0c00304) is out in Environmental Science & Technology Letters.
