@@ -5,12 +5,12 @@ title: Papers
 nav: false
 ---
 
-{% include bib_search.liquid %}
+<p><small><sup>*</sup> Corresponding author.</small></p>
 
 <div class="publications">
-  {% bibliography --file papers --query @*[year>=2021]* %}
+  {% bibliography --file papers --query @*[year>=2023]* %}
 
-  <h2 class="bibliography">Before 2021</h2>
+  <h2 class="bibliography">Before PhD</h2>
 
-  {% bibliography --file papers --group_by none --query @*[year<2021]* %}
+  {% bibliography --file papers --group_by none --query @*[year<2023]* %}
 </div>
