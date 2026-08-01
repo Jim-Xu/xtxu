@@ -18,25 +18,25 @@
     - title: Ph.D. in Atmopsheric Science
       institution: University of Illinois Urbana-Champaign
       year: 08/2021 -
-      # description: 
-        # - Description 1.
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+      # description:
+      # - Description 1.
+      # - Description 2.
+      # - title: Description 3.
+      #   contents:
+      #     - Sub-description 1.
+      #     - Sub-description 2.
     - title: M.Sc. in Environmental Sciences & Management
       institution: The Hong Kong University of Science and Technology
       year: 11/2019
-      # description: 
-        # - Description 1.
-        # - Description 2.
+      # description:
+      # - Description 1.
+      # - Description 2.
     - title: B.Eng. in Environmental Engineering
       institution: Shanxi University
       year: 06/2018
       # description: Environmental Engineering
-        # - Description 1.
-        # - Description 2.
+      # - Description 1.
+      # - Description 2.
 
 - title: Experience
   type: time_table
@@ -68,31 +68,29 @@
   type: time_table
   contents:
     - year: 2025
-      items: 
+      items:
         - Atmospheric Chemistry Gordon Research Conference
     - year: 10/2023
-      items: 
+      items:
         - Samuel, Berle D. and Jeffrey A. Schlesinger Travel Grant
     - year: 02/2023
-      items: 
+      items:
         - Samuel, Berle D. and Jeffrey A. Schlesinger Travel Grant
     - year: 08/2021
-      items: 
+      items:
         - The Best ES&T Letters Papers in 2020
-                
 
 - title: Academic Interests
   type: nested_list
-  contents: 
+  contents:
     - title: Aerosol modelling, Aerosol-cloud interaction, Aerosol-Climate interaction
-    #   items: 
+    #   items:
     #     - Description 1.
     #     - Description 2.
     # - title: Topic 2.
     #   items:
     #     - Description 1.
     #     - Description 2.
-
 # - title: Other Interests
 #   type: list
 #   contents:

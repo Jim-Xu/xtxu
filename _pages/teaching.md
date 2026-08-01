@@ -26,14 +26,14 @@ Instructor: Nicole Riemer
 
 ## Mentoring
 
-**Graduate–Graduate Mentorship Program (2023–2024)**  
+**Graduate–Graduate Mentorship Program (2023–2024)**
 
-- Served as a graduate mentor to support incoming students during their first year.  
-- Guided mentees through the transition into graduate school, including navigating program requirements, group expectations, and common first-year “twists and turns.”  
-- Shared experiences, advice, and strategies to succeed as a first-year graduate student, fostering a supportive peer-mentoring environment.  
+- Served as a graduate mentor to support incoming students during their first year.
+- Guided mentees through the transition into graduate school, including navigating program requirements, group expectations, and common first-year “twists and turns.”
+- Shared experiences, advice, and strategies to succeed as a first-year graduate student, fostering a supportive peer-mentoring environment.
 
-**Graduate–Undergraduate Mentorship Program (2022–2023)**  
+**Graduate–Undergraduate Mentorship Program (2022–2023)**
 
-- Mentored three undergraduate students (Kyuhaeng Lee, Erika Pruitt, Alyssa Shih) who interested in research and graduate school.  
-- Provided guidance on identifying research opportunities, building foundational technical/research skills, and preparing application materials for graduate programs.  
-- Supported mentees in setting short-term development goals and exploring academic and research career pathways.  
+- Mentored three undergraduate students (Kyuhaeng Lee, Erika Pruitt, Alyssa Shih) who interested in research and graduate school.
+- Provided guidance on identifying research opportunities, building foundational technical/research skills, and preparing application materials for graduate programs.
+- Supported mentees in setting short-term development goals and exploring academic and research career pathways.
