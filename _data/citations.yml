@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-08-05'
 papers:
   hM_FmJMAAAAJ:2osOgNQ5qMEC:
     citations: 2
     title: "\u751F\u7269\u8D28\u71C3\u70E7\u548C\u91C7\u6696\u5BF9\u592A\u539F\u5E02\u5927\u6C14PM2.5\u7684\u5F71\u54CD"
     year: '2016'
   hM_FmJMAAAAJ:3s1wT3WcHBgC:
-    citations: 0
+    citations: 1
     title: Role of liquid-liquid phase separation-induced surface tension changes in cloud droplet activation
     year: '2026'
   hM_FmJMAAAAJ:9yKSN-GCB0IC:
-    citations: 217
+    citations: 223
     title: Substantial changes in nitrogen dioxide and ozone after excluding meteorological impacts during the COVID-19 outbreak in mainland China
     year: '2020'
   hM_FmJMAAAAJ:RYcK_YlVTxYC:
@@ -38,7 +38,7 @@ papers:
     title: Data for Quantifying the Impact of Surfactants on Cloud Condensation Nuclei Activity Using a Particle-Resolved Model
     year: '2026'
   hM_FmJMAAAAJ:u-x6o8ySG0sC:
-    citations: 14
+    citations: 13
     title: Characterization of size-resolved urban haze particles collected in summer and winter at Taiyuan City, China using quantitative electron probe X-ray microanalysis
     year: '2017'
   hM_FmJMAAAAJ:zA6iFVUQeVQC:
