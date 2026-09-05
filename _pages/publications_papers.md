@@ -10,9 +10,9 @@ nav: false
 <div class="publications">
   <h2 class="bibliography">In preparation</h2>
 
-{% bibliography --file papers --group_by none --query @*[inprep=true]* %}
+{% bibliography --file papers --group_by none --query @*[inprep]* %}
 
-{% bibliography --file papers --query @*[year>=2023&&inprep!=true]* %}
+{% bibliography --file papers --query @*[year>=2023&&inprep!~.+]* %}
 
   <h2 class="bibliography">Before PhD</h2>
 
