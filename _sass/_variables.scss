@@ -9,19 +9,19 @@
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+$blue-color: #163f75 !default;
+$blue-color-dark: #0f2d56 !default;
+$cyan-color: #6fa6cf !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$purple-color: $blue-color !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
+$pink-color: #3f78a8 !default;
+$pink-color-light: #dcecff !default;
 $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;

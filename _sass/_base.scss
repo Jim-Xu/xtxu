@@ -228,6 +228,10 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+
+  .about-page .profile {
+    width: 26%;
+  }
 }
 
 .post-description {
@@ -245,6 +249,21 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Navbar customization
+
+.site-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100%;
+  height: 4px;
+  background-color: var(--global-theme-color);
+  pointer-events: none;
+}
+
+#navbar.fixed-top {
+  top: 4px;
+}
 
 .navbar {
   box-shadow: none;
@@ -455,6 +474,39 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.about-page__role {
+  margin-top: -0.5rem;
+  color: var(--global-text-color-light);
+  font-family: var(--home-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about-page .contact-icons {
+  font-size: 2.75rem;
+
+  a {
+    img {
+      width: 2.2rem;
+      height: 2.2rem;
+      margin-bottom: 0.7rem;
+    }
+
+    svg {
+      width: 2.5rem;
+      height: 2.9rem;
+      margin-bottom: 0.35rem;
+
+      image {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
@@ -592,6 +644,7 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  color: var(--global-theme-color);
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }

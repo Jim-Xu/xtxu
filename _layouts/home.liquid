@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="post home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__media">
+      <video
+        class="home-hero__video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        poster="{{ '/assets/img/hero-aerosols.jpg' | relative_url }}"
+        aria-hidden="true"
+      >
+        <source src="{{ '/assets/video/Aerosols_RotatingEarth_3840x2160.mp4' | relative_url }}" type="video/mp4">
+      </video>
+      <div class="home-hero__overlay">
+        <p class="home-eyebrow">AEROSOLS · CLOUDS · CLIMATE</p>
+        <h1 id="home-title">Welcome to Xiaotian's website</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section home-research" aria-labelledby="research-heading">
+    <div class="home-section__heading">
+      <h2 id="research-heading">Research Interests</h2>
+    </div>
+    <div class="research-grid">
+      <article class="research-card">
+        <p class="research-card__label">AEROSOL · PARTICLES</p>
+        <h3>Aerosol Mixing State</h3>
+        <p>How particle-level composition and mixing state shape aerosol optical properties, aging, and cloud-relevant behavior.</p>
+      </article>
+      <article class="research-card">
+        <p class="research-card__label">CLOUDS · CCN</p>
+        <h3>Aerosol-Cloud Interactions</h3>
+        <p>How surfactants, phase separation, and surface tension influence CCN activity and cloud droplet formation.</p>
+      </article>
+      <article class="research-card">
+        <p class="research-card__label">MODELING · DATA</p>
+        <h3>Machine Learning</h3>
+        <p>Connecting particle-scale understanding with regional and global models to quantify aerosol-climate effects.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- News -->
+  {% if page.announcements and page.announcements.enabled %}
+    <section class="home-section home-news" aria-labelledby="news-heading">
+      <div class="home-section__heading">
+        <h2 id="news-heading"><a href="{{ '/news/' | relative_url }}">News</a></h2>
+        <a class="home-section__link" href="{{ '/news/' | relative_url }}">View all <span aria-hidden="true">→</span></a>
+      </div>
+      {% include news.liquid limit=true %}
+    </section>
+  {% endif %}
+</div>

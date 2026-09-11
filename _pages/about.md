@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /
+permalink: /about/
 subtitle:
 
 profile:
@@ -13,18 +13,11 @@ profile:
     <p>1301 W Green St</p>
     <p>Urbana, IL 60801</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Xiaotian Xu, a fifth-year Ph.D. Student at Department of Climate, Meteorology & Atmospheric Sciences, University of Illinois at Urbana-Champaign (UIUC), under supervision of Prof. [Nicole Riemer](https://www.atmos.illinois.edu/~nriemer/index.html). Before that, I worked as a full-time research assistant in Prof. [Yanxu Zhang](https://ebmg.tulane.edu)’s group in School of Atmospheric Science at Nanjing university (NJU) from Dec. 2019 to Jun. 2021. I received my M.S. degree in Environmental Science and Management at the Hong Kong University of Science and Technology (HKUST) in Nov 2019, for thesis conducted in the Atmospheric Chemistry Group of Prof. [Jianzhen Yu](https://landsea.ust.hk/~chjianyu/). and B.Eng. degree in Environmental Engineering at Shanxi University (SXU) in 2018.
+I received my Ph.D. from the Department of Climate, Meteorology & Atmospheric Sciences at the University of Illinois at Urbana-Champaign (UIUC), where I worked with Prof. [Nicole Riemer](https://www.atmos.illinois.edu/~nriemer/index.html). I will join [Prof. Fangqun Yu's group](https://sites.google.com/view/fangqun-yu) at the University at Albany, SUNY.
+
+My research focuses on atmospheric aerosols, aerosol-cloud-climate interactions, aerosol mixing state, CCN activity, and particle-resolved and machine-learning modeling.
+
+Before UIUC, I worked as a full-time research assistant in Prof. [Yanxu Zhang](https://ebmg.tulane.edu)'s group at Nanjing University from December 2019 to June 2021. I received my M.S. degree in Environmental Science and Management from the Hong Kong University of Science and Technology in 2019 and my B.Eng. degree in Environmental Engineering from Shanxi University in 2018.

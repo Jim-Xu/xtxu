@@ -4,6 +4,7 @@
 
 body {
   padding-bottom: 70px;
+  font-family: var(--home-sans);
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -13,13 +14,15 @@ body {
   h4,
   h5,
   h6 {
+    font-family: var(--home-serif);
+    font-weight: 400;
     scroll-margin-top: 66px;
   }
 }
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 57px;
+  padding-top: 61px;
 }
 
 body.sticky-bottom-footer {
