@@ -361,18 +361,29 @@ body.publications-page-body footer.fixed-bottom {
   }
 
   .home-hero__overlay {
+    align-items: center;
     justify-content: flex-end;
     padding: 28px;
+    text-align: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.34) 58%, rgba(0, 0, 0, 0.04) 100%);
   }
 
   .home-hero h1 {
     max-width: 470px;
     font-size: clamp(2.25rem, 11vw, 3.75rem);
+    text-align: center;
   }
 
   .home-section {
     padding: 38px 0 44px;
+    text-align: center;
+  }
+
+  .home-section__heading {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 
   .research-grid {
@@ -381,20 +392,22 @@ body.publications-page-body footer.fixed-bottom {
 
   .research-card {
     min-height: 0;
+    text-align: center;
   }
 
   .home-news .news table th,
   .home-news .news table td {
     padding-right: 0;
     padding-left: 0;
+    text-align: center;
   }
 
   .publications ol.bibliography li .col-sm-2.abbr {
-    max-width: 22%;
+    max-width: 30%;
   }
 
   .publications ol.bibliography li > .col-sm-10 {
-    max-width: 78%;
+    max-width: 70%;
   }
 }
 
