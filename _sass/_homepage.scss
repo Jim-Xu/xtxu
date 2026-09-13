@@ -375,17 +375,17 @@ body.publications-page-body footer.fixed-bottom {
   }
 
   .home-hero__overlay {
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
     padding: 28px;
-    text-align: center;
+    text-align: left;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.34) 58%, rgba(0, 0, 0, 0.04) 100%);
   }
 
   .home-hero h1 {
     max-width: 470px;
     font-size: clamp(2.25rem, 11vw, 3.75rem);
-    text-align: center;
+    text-align: left;
   }
 
   .home-section {
