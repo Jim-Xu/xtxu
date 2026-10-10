@@ -474,14 +474,31 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.about-page__identity {
+  margin: 1rem 0 1.5rem;
+  text-align: right;
+}
+
+.about-page__name {
+  margin-bottom: 0.25rem;
+  color: var(--global-text-color);
+  font-size: 1.75rem;
+}
+
 .about-page__role {
-  margin-top: -0.5rem;
+  margin-bottom: 0;
   color: var(--global-text-color-light);
   font-family: var(--home-sans);
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+@media (max-width: 575.98px) {
+  .about-page__identity {
+    text-align: left;
+  }
 }
 
 .about-page .contact-icons {

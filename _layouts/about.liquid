@@ -3,8 +3,11 @@ layout: default
 ---
 <div class="post about-page">
   <header class="post-header">
-    <h1 class="post-title about-page__name">Xiaotian Xu</h1>
-    <p class="about-page__role">Incoming Postdoctoral Researcher</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="about-page__identity">
+      <h2 class="about-page__name">Xiaotian Xu</h2>
+      <p class="about-page__role">Incoming Postdoctoral Researcher</p>
+    </div>
     {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
     {% endif %}
