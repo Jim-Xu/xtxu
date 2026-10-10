@@ -315,6 +315,7 @@ filtered_bibtex_keywords:
     abstract,
     additional_info,
     altmetric,
+    best_paper,
     annotation,
     arxiv,
     award,

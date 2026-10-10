@@ -201,6 +201,9 @@
       {% if entry.url %}
         <a href="{{ entry.url }}" class="publication-link">[link]</a>
       {% endif %}
+      {% if entry.best_paper %}
+        <a href="{{ entry.best_paper }}" class="publication-link">[Best ES&amp;T Letters Papers in 2020]</a>
+      {% endif %}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
