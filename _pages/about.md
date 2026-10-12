@@ -7,6 +7,7 @@ subtitle:
 profile:
   align: right
   image: me.jpg
+  image_alt: Xiaotian Xu
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>4050 Natural History</p>

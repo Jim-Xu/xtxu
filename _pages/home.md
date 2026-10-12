@@ -5,6 +5,5 @@ permalink: /
 
 announcements:
   enabled: true
-  scrollable: true
-  limit: 5
+  limit: 3
 ---
