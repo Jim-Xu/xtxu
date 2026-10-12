@@ -345,15 +345,16 @@ body.publications-page-body footer.fixed-bottom {
   display: block;
   align-self: flex-start;
   width: 100%;
-  padding: 0.2rem 0.4rem;
+  padding: 0.25em 0.4em;
+  border-radius: 0.25rem;
   background: var(--site-accent);
   color: #ffffff;
   content: "Article";
   font-family: var(--home-sans);
-  font-size: 0.75rem;
+  font-size: 75%;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1;
   text-align: center;
 }
 
