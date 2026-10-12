@@ -1,18 +1,31 @@
-// Homepage-specific visual system inspired by the requested editorial landing page.
+// Site-wide visual tokens with page-specific editorial treatments.
 
 :root {
-  --home-navy: #163f75;
-  --home-ink: #253746;
-  --home-muted: #607282;
-  --home-line: #d8e1ea;
-  --home-soft: #f3f6fa;
+  --site-accent: #9a4c24;
+  --site-ink: #25343e;
+  --site-muted: #586872;
+  --site-line: #dce1e3;
+  --site-canvas: #fafaf8;
+  --site-surface: #ffffff;
+  --site-soft: #f2f3f2;
+  --global-bg-color: var(--site-canvas);
+  --global-text-color: var(--site-ink);
+  --global-text-color-light: var(--site-muted);
+  --global-theme-color: var(--site-accent);
+  --global-hover-color: var(--site-accent);
+  --global-divider-color: var(--site-line);
+  --global-card-bg-color: var(--site-surface);
+  --home-ink: var(--site-ink);
+  --home-muted: var(--site-muted);
+  --home-line: var(--site-line);
+  --home-soft: var(--site-soft);
   --home-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --home-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
 body.home-page-body {
   padding-bottom: 0;
-  background: #ffffff;
+  background: var(--site-canvas);
   color: var(--home-ink);
 }
 
@@ -29,7 +42,7 @@ body.home-page-body footer.fixed-bottom {
 }
 
 body.home-page-body .navbar {
-  background: #ffffff !important;
+  background: var(--site-surface) !important;
   font-family: var(--home-sans);
   box-shadow: none;
   border-bottom: 1px solid var(--home-line);
@@ -44,11 +57,11 @@ body.home-page-body .navbar #light-toggle {
 
 body.home-page-body .navbar .nav-link:hover,
 body.home-page-body .navbar .nav-link:focus {
-  color: var(--home-navy) !important;
+  color: var(--site-accent) !important;
 }
 
 body.home-page-body .navbar .nav-item.active > .nav-link {
-  border-bottom: 3px solid var(--home-navy);
+  border-bottom: 3px solid var(--site-accent);
 }
 
 .home-page {
@@ -66,7 +79,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
   margin: 0 auto;
   aspect-ratio: 16 / 7;
   overflow: hidden;
-  background: #000000;
+  background: #171b1e;
 }
 
 .home-hero__video {
@@ -94,7 +107,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 .home-eyebrow,
 .research-card__label {
   margin: 0 0 12px;
-  color: #dcecff;
+  color: #f1ddd2;
   font-family: monospace;
   font-size: 0.72rem;
   font-weight: 600;
@@ -115,7 +128,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 
 .home-section__link,
 .home-news h2 a {
-  color: var(--home-navy);
+  color: var(--site-accent);
 }
 
 .home-section {
@@ -141,7 +154,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 
 .home-section__heading h2 {
   margin: 0;
-  color: var(--home-navy);
+  color: var(--home-ink);
   font-family: var(--home-serif);
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   font-weight: 400;
@@ -172,14 +185,14 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 .research-card {
   min-height: 190px;
   padding: 20px 18px 24px;
-  border-top: 2px solid var(--home-navy);
-  background: var(--home-soft);
+  border-top: 2px solid var(--site-accent);
+  background: var(--site-surface);
 }
 
 .research-card__label {
   margin-bottom: 22px;
-  color: var(--home-navy);
-  font-size: 0.66rem;
+  color: var(--site-accent);
+  font-size: 0.75rem;
 }
 
 .research-card h3 {
@@ -194,8 +207,8 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 .research-card p:last-child {
   margin: 0;
   color: var(--home-muted);
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 0.96rem;
+  line-height: 1.65;
 }
 
 .home-news .news .table {
@@ -215,7 +228,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
   padding: 16px 10px;
   border-top: 0;
   color: var(--home-ink);
-  font-size: 0.92rem;
+  font-size: 0.96rem;
   vertical-align: top;
 }
 
@@ -223,18 +236,18 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
   width: 120px;
   color: var(--home-muted);
   font-family: monospace;
-  font-size: 0.76rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   white-space: nowrap;
 }
 
 .home-news .news table a {
-  color: var(--home-navy);
+  color: var(--site-accent);
 }
 
 // Publications: editorial list treatment inspired by the reference site.
 .publications {
-  margin-top: 1.75rem;
+  margin-top: 1.25rem;
   font-family: var(--home-sans);
 }
 
@@ -247,11 +260,11 @@ body.publications-page-body footer.fixed-bottom {
 }
 
 .publications .publication-group > h2.bibliography {
-  margin: 2.75rem 0 1.35rem;
+  margin: 2.5rem 0 1.25rem;
   padding: 0 0 0.65rem;
   border-top: 0;
-  border-bottom: 2px solid var(--home-navy);
-  color: var(--home-navy);
+  border-bottom: 1px solid var(--home-line);
+  color: var(--home-ink);
   font-family: var(--home-serif);
   font-size: clamp(1.65rem, 3vw, 2.25rem);
   font-weight: 500;
@@ -261,12 +274,12 @@ body.publications-page-body footer.fixed-bottom {
 }
 
 .publications .publication-group:first-child > h2.bibliography {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .publications .publication-pending > h2.bibliography {
   font-size: clamp(1.4rem, 2.4vw, 1.9rem);
-  text-align: right;
+  text-align: left;
 }
 
 .publications ol.bibliography li {
@@ -280,11 +293,16 @@ body.publications-page-body footer.fixed-bottom {
 }
 
 .publications ol.bibliography .title {
-  color: var(--home-navy);
+  color: var(--home-ink);
   font-family: var(--home-serif);
   font-size: clamp(1.1rem, 1.8vw, 1.375rem);
   font-weight: 500;
   line-height: 1.25;
+}
+
+.publications ol.bibliography .title:hover,
+.publications ol.bibliography .title:focus {
+  color: var(--site-accent);
 }
 
 .publications ol.bibliography .author,
@@ -311,8 +329,8 @@ body.publications-page-body footer.fixed-bottom {
 
 .publications ol.bibliography .links a.btn {
   margin-right: 0.35rem;
-  border-color: var(--home-navy);
-  color: var(--home-navy);
+  border-color: var(--site-accent);
+  color: var(--site-accent);
   font-family: var(--home-sans);
   font-size: 0.7rem;
   letter-spacing: 0.04em;
@@ -328,7 +346,7 @@ body.publications-page-body footer.fixed-bottom {
   align-self: flex-start;
   width: 100%;
   padding: 0.2rem 0.4rem;
-  background: var(--home-navy);
+  background: var(--site-accent);
   color: #ffffff;
   content: "Article";
   font-family: var(--home-sans);
