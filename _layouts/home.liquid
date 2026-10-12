@@ -3,25 +3,25 @@ layout: default
 ---
 <div class="post home-page">
   <section class="home-hero" aria-labelledby="home-title">
-    <div class="home-hero__media">
-      <video
-        class="home-hero__video"
-        autoplay
-        muted
-        loop
-        playsinline
-        preload="metadata"
-        poster="{{ '/assets/img/hero-aerosols.jpg' | relative_url }}"
-        aria-hidden="true"
-      >
-        <source src="{{ '/assets/video/Aerosols_RotatingEarth_1920x1080.mp4' | relative_url }}" type="video/mp4">
-      </video>
-      <div class="home-hero__overlay">
+    <div class="home-hero__inner">
+      <div class="home-hero__copy">
         <p class="home-eyebrow">AEROSOLS · CLOUDS · CLIMATE</p>
-        <h1 id="home-title">
-          Welcome to<br>
-          Xiaotian's website
-        </h1>
+        <h1 id="home-title">Xiaotian Xu</h1>
+        <p class="home-hero__summary">I study atmospheric aerosols and their effects on clouds and climate using modeling, experiments, and machine learning.</p>
+      </div>
+      <div class="home-hero__media">
+        <video
+          class="home-hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="{{ '/assets/img/hero-aerosols.jpg' | relative_url }}"
+          aria-hidden="true"
+        >
+          <source src="{{ '/assets/video/Aerosols_RotatingEarth_1920x1080.mp4' | relative_url }}" type="video/mp4">
+        </video>
       </div>
     </div>
   </section>
