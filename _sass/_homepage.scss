@@ -1,13 +1,13 @@
 // Site-wide visual tokens with page-specific editorial treatments.
 
 :root {
-  --site-accent: #9a4c24;
-  --site-ink: #25343e;
-  --site-muted: #586872;
-  --site-line: #dce1e3;
-  --site-canvas: #fafaf8;
+  --site-accent: #163f75;
+  --site-ink: #253746;
+  --site-muted: #607282;
+  --site-line: #d8e1ea;
+  --site-canvas: #ffffff;
   --site-surface: #ffffff;
-  --site-soft: #f2f3f2;
+  --site-soft: #f3f6fa;
   --global-bg-color: var(--site-canvas);
   --global-text-color: var(--site-ink);
   --global-text-color-light: var(--site-muted);
@@ -79,7 +79,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
   margin: 0 auto;
   aspect-ratio: 16 / 7;
   overflow: hidden;
-  background: #171b1e;
+  background: #000000;
 }
 
 .home-hero__video {
@@ -107,7 +107,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 .home-eyebrow,
 .research-card__label {
   margin: 0 0 12px;
-  color: #f1ddd2;
+  color: #dcecff;
   font-family: monospace;
   font-size: 0.72rem;
   font-weight: 600;
@@ -154,7 +154,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 
 .home-section__heading h2 {
   margin: 0;
-  color: var(--home-ink);
+  color: var(--site-accent);
   font-family: var(--home-serif);
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   font-weight: 400;
@@ -186,7 +186,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
   min-height: 190px;
   padding: 20px 18px 24px;
   border-top: 2px solid var(--site-accent);
-  background: var(--site-surface);
+  background: var(--home-soft);
 }
 
 .research-card__label {
@@ -197,7 +197,7 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 
 .research-card h3 {
   margin: 0 0 12px;
-  color: var(--home-ink);
+  color: var(--site-accent);
   font-family: var(--home-serif);
   font-size: 1.35rem;
   font-weight: 400;
@@ -264,7 +264,7 @@ body.publications-page-body footer.fixed-bottom {
   padding: 0 0 0.65rem;
   border-top: 0;
   border-bottom: 1px solid var(--home-line);
-  color: var(--home-ink);
+  color: var(--site-accent);
   font-family: var(--home-serif);
   font-size: clamp(1.65rem, 3vw, 2.25rem);
   font-weight: 500;
@@ -293,7 +293,7 @@ body.publications-page-body footer.fixed-bottom {
 }
 
 .publications ol.bibliography .title {
-  color: var(--home-ink);
+  color: var(--site-accent);
   font-family: var(--home-serif);
   font-size: clamp(1.1rem, 1.8vw, 1.375rem);
   font-weight: 500;
