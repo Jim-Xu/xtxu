@@ -70,37 +70,38 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
 }
 
 .home-hero {
-  padding: 52px 0 62px;
-}
-
-.home-hero__inner {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  align-items: center;
-  gap: clamp(32px, 6vw, 80px);
-}
-
-.home-hero__copy {
-  max-width: 440px;
+  padding: 36px 0 50px;
 }
 
 .home-hero__media {
   position: relative;
   max-width: none;
   margin: 0 auto;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 7;
   overflow: hidden;
-  border: 1px solid var(--home-line);
-  background: var(--home-soft);
+  background: #000000;
 }
 
 .home-hero__video {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 100%;
-  margin: 0;
+  margin-left: auto;
   object-fit: cover;
   object-position: center;
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.home-hero__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(30px, 5vw, 64px);
+  color: #ffffff;
+  background: transparent;
 }
 
 .home-eyebrow,
@@ -114,28 +115,15 @@ body.home-page-body .navbar .nav-item.active > .nav-link {
   line-height: 1.4;
 }
 
-.home-hero__copy .home-eyebrow {
-  margin-bottom: 18px;
-  color: var(--site-accent);
-}
-
 .home-hero h1 {
-  max-width: 440px;
-  margin: 0 0 18px;
-  color: var(--home-ink);
-  font-family: var(--home-sans);
-  font-size: clamp(3rem, 5.4vw, 4.75rem);
-  font-weight: 650;
-  letter-spacing: -0.055em;
-  line-height: 1;
-}
-
-.home-hero__summary {
-  max-width: 38ch;
+  max-width: 520px;
   margin: 0;
-  color: var(--home-muted);
-  font-size: 1.1rem;
-  line-height: 1.65;
+  color: #ffffff;
+  font-family: var(--home-serif);
+  font-size: clamp(2rem, 4.2vw, 3.9rem);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
 }
 
 .home-section__link,
@@ -397,33 +385,30 @@ body.publications-page-body footer.fixed-bottom {
     padding: 24px 0 40px;
   }
 
-  .home-hero__inner {
-    grid-template-columns: 1fr;
-    gap: 26px;
-  }
-
-  .home-hero__copy {
-    max-width: 560px;
-  }
-
   .home-hero__media {
     max-width: none;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 4 / 5;
   }
 
   .home-hero__video {
     width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
+  .home-hero__overlay {
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 28px;
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.34) 58%, rgba(0, 0, 0, 0.04) 100%);
   }
 
   .home-hero h1 {
-    max-width: 100%;
-    font-size: clamp(2.75rem, 11vw, 4.2rem);
+    max-width: 470px;
+    font-size: clamp(1.75rem, 8.75vw, 3.75rem);
     text-align: left;
     white-space: normal;
-  }
-
-  .home-hero__summary {
-    font-size: 1rem;
   }
 
   .home-section {
@@ -471,7 +456,7 @@ body.publications-page-body footer.fixed-bottom {
 
 @media (prefers-reduced-motion: reduce) {
   .home-hero__media {
-    background: #ffffff url("/assets/img/hero-aerosols.jpg") center / cover no-repeat;
+    background: #000000 url("/assets/img/hero-aerosols.jpg") right center / auto 100% no-repeat;
   }
 
   .home-hero__video {
