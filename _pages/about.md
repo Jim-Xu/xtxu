@@ -10,9 +10,10 @@ profile:
   image_alt: Dr. Xiaotian Xu
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>4050 Natural History</p>
-    <p>1301 W Green St</p>
-    <p>Urbana, IL 60801</p>
+    <p>320B ETEC Building</p>
+    <p>1220 Washington Ave.</p>
+    <p>Albany, NY 12226</p>
+    <p>United States</p>
 
 social: true # includes social icons at the bottom of the page
 ---
